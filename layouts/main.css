@@ -1,0 +1,44 @@
+.site{
+
+}
+.site-header{
+	border-bottom:1px solid #666;
+}
+h1.site-title{
+
+}
+h2.site-description{
+
+}
+nav.main-navigation{
+
+}
+nav.toggled ul li{
+	display:block;
+	float:left;
+	clear:left;
+}	
+ul.nav-menu{
+
+}
+ul.nav-menu li{
+	display:inline-block;
+	float:none;
+	clear:none;
+
+}
+ul.nav-menu li.current_page_item{
+	border-bottom:3px solid #ACF;
+}
+ul.nav-menu li a{
+	display:block;
+	padding:5px;
+}
+a,a:active,a:visited,a:hover{
+	text-decoration:none;
+	color:#666;
+}
+
+.site-footer{
+
+}

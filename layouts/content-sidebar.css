@@ -1,0 +1,27 @@
+/*
+Theme Name: untangled
+Layout: Content-Sidebar
+*/
+
+
+
+@media(min-width: 601px){
+	.site-main {
+		margin: 0 -380px 0 0;
+	}	
+	.site-content .widget-area {
+		float: right;
+		overflow: hidden;
+		width: 380px;
+	}
+}
+@media(max-width: 600px){
+	.site-main {
+		margin: 0 25% 0 0;
+	}
+	.site-content .widget-area {
+		clear:both;
+		float:none;
+		width:100%;
+	}
+}
