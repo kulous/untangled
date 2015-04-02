@@ -102,7 +102,7 @@ add_action( 'widgets_init', 'untangled_widgets_init' );
 function untangled_scripts() {
 	wp_enqueue_style( 'untangled-style', get_stylesheet_uri() );
 
-	wp_enqueue_style( 'content-sidebar', get_template_directory_uri() . '/layouts/content-sidebar.css' );
+	/*wp_enqueue_style( 'content-sidebar', get_template_directory_uri() . '/layouts/content-sidebar.css' );*/
 
 	wp_enqueue_style( 'main', get_template_directory_uri() . '/layouts/main.css' );
 
