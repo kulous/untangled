@@ -130,6 +130,10 @@ h1,h2,h3,h4,h5,h6{
 	padding:15px;
 	clear:both;
 }
+.site-footer a,.site-footer a:active,.site-footer a:visited{
+	text-decoration:none;
+	color: white;
+}
 .menu-toggle{
 	display:none;
 }
