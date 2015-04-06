@@ -88,7 +88,6 @@ h1,h2,h3,h4,h5,h6{
 	height:100%;
 	background:white;
 	border-bottom:1px solid black;
-	margin-top:61px;
 	padding:30px;
 	clear:both;
 	background-size:100% 100%;
@@ -106,7 +105,6 @@ h1,h2,h3,h4,h5,h6{
 	text-align:center;
 }
 .site-content{
-	margin-top:55px;
 	min-height:650px;
 	padding-bottom:125px;
     overflow: hidden;
@@ -170,13 +168,10 @@ article.post{
 }
 .entry-title{
 	padding:5px;
-
 }
 .entry-title a{
 }
 .entry-header{
-
-
 }
 .entry-meta{
 	font-size:.8em;
@@ -204,6 +199,7 @@ li.cat-item a{
  display:block;
 }
 .category-header{
+ width:100%;
  padding-bottom:15px;
  border-bottom:1px dotted #EEE;
 

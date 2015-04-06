@@ -8,16 +8,18 @@
  */
 
 get_header(); ?>
+	<header class="page-header category-header">
+		<h1 class="page-title"><?php single_cat_title(); ?></h1>
+<!--		<div class="taxonomy-description"><?php echo category_description(); ?></div> -->
+	</header><!-- .page-header -->
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
+
 		<?php if ( have_posts() ) : ?>
 
-			<header class="page-header category-header">
-				<h1 class="page-title"><?php single_cat_title('Industry: '); ?></h1>
-				<div class="taxonomy-description"><?php echo category_description(); ?></div>
-			</header><!-- .page-header -->
+
 
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
