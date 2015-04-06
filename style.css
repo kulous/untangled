@@ -180,6 +180,9 @@ article.post{
 .entry-meta{
 	font-size:.8em;
 }
+.entry-meta span, .entry-meta time{
+	margin:3px;
+}
 .entry-content{
 	padding:15px;
 	line-height:1.2em;
