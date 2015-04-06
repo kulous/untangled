@@ -171,8 +171,21 @@ h1,h2,h3,h4,h5,h6{
 /* actual entry here */
 article.page{
 }
+article.post{
+	border-bottom:1px dotted #EEE;
+}
+.entry-title{
+	padding:5px;
+
+}
+.entry-title a{
+}
 .entry-header{
 
+
+}
+.entry-meta{
+	font-size:.8em;
 }
 .entry-content{
 	padding:15px;
@@ -180,5 +193,24 @@ article.page{
 
 }
 .entry-footer{
+	font-size:.8em;
+	padding:3px;
+}
+.entry-footer span{
+	margin:3px;
+}
+li.cat-item{
+ padding:5px;
+border-bottom:1px dotted #EEE;
+}
+li.current-cat{
+ border-bottom:1px solid red;
+}
+li.cat-item a{
+ display:block;
+}
+.category-header{
+ padding-bottom:15px;
+ border-bottom:1px dotted #EEE;
 
 }
